@@ -1,0 +1,41 @@
+###########################################
+##                                       ##
+##           Hunt the Wumpus             ##
+##                                       ##
+###########################################
+
+You have entered a cave to capture the monster Wumpus.
+The cave consists of 20 rooms.
+Each room has a passage leading to 3 other rooms.
+
+risk factors
+
+pit:
+- Two rooms have pits. This pit is so deep
+that once you fall you can't get out.
+-Rooms with pits have subtly different airflow.
+
+bat :
+- There are big bats in the three rooms
+- If you enter this room, the bat will grab you
+and throw you into another room and fly away.
+- Keep in mind that there may be other hazards
+in the room you are thrown into.
+- Bats always rub their wings, even when not moving.
+
+Wumpus:
+- Wumpus is a monster that emits a terrible smell
+and is not affected by the dangers in the cave.
+- He has sucker feet and a body too large for a bat to lift.
+- Wumpus are mostly asleep.
+- If you shoot the wrong arrow or enter the room with the Wumpus,
+he will wake up.
+- After the Wumpus wakes up, he has a 75% chance to move to another room,
+and if you and the Wumpus are in one room, he will grab you and eat you.
+
+*you
+
+Each turn you can move to another room connected
+to your current room or shoot an old arrow.
+If you use up all five arrows and don't catch the Wumpus,
+you will fail the hunt.
